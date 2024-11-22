@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bovada | Online Sportsbook</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar-top">
+        <h1><img id="logo" alt="Bovada logo" src="images/logo_main.svg"></h1>
+        <nav>
+            <ul>
+                <li><a class="channel-item" href="#"> Sports</a></li>
+                <li><a class="channel-item" href="#">Casino</a></li>
+                <li><a class="channel-item" href="#">Live Dealer</a></li>
+                <li><a class="channel-item" href="#">Poker</a></li>
+                <li><a class="channel-item" href="#">Horses</a></li>
+            </ul>
+        </nav>
+
+        <div class="user-info">
+            <div class="login-container">
+                <a href="#"><button class="join-btn" type="button">Join</button></a>
+                <a href="#"><button class="login-btn" type="button">Login</button></a>
+            </div>
+            <button class="menu-btn">
+                <span></span>
+                <span></span>
+            </button>
+
+            <button class="language-btn"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                    viewBox="0 0 32 32" fill="none">
+                    <path
+                        d="M0.034 16.668C0.388 25.179 7.403 32 16 32C24.597 32 31.612 25.179 31.966 16.668C31.9869 16.6144 31.9984 16.5575 32 16.5C32 16.464 31.987 16.433 31.98 16.4C31.983 16.266 32 16.135 32 16C32 7.178 24.822 0 16 0C7.178 0 0 7.178 0 16C0 16.135 0.017 16.266 0.02 16.4C0.013 16.433 0 16.464 0 16.5C0 16.56 0.015 16.615 0.034 16.668ZM24.921 22.742C23.562 22.1785 22.15 21.7527 20.706 21.471C20.864 20.018 20.957 18.509 20.986 17.001H25.966C25.875 19.055 25.51 20.994 24.921 22.742ZM26.965 17H30.949C30.7719 19.7225 29.8508 22.3441 28.286 24.579C27.5087 24.0311 26.6868 23.5494 25.829 23.139C26.474 21.27 26.871 19.196 26.965 17ZM12.389 22.286C13.5835 22.0975 14.7908 22.0019 16 22C17.224 22 18.433 22.102 19.61 22.286C18.916 27.621 17.4 31 16 31C14.6 31 13.084 27.621 12.389 22.286ZM13.908 30.664C11.157 29.782 8.83 27.193 7.426 23.68C8.71231 23.1429 10.0489 22.7352 11.416 22.463C11.875 25.959 12.714 29.005 13.908 30.664ZM12.274 10.709C13.5067 10.9011 14.7524 10.9984 16 11C17.2476 10.9984 18.4933 10.9011 19.726 10.709C19.898 12.329 20 14.097 20 16H12C12 14.097 12.102 12.329 12.274 10.709ZM19.985 17C19.9611 18.4334 19.8744 19.8652 19.725 21.291C18.4926 21.0989 17.2473 21.0017 16 21C14.7524 21.0016 13.5067 21.0989 12.274 21.291C12.1246 19.8652 12.0379 18.4334 12.014 17H19.985ZM20.585 22.463C21.989 22.745 23.328 23.155 24.575 23.68C23.171 27.193 20.844 29.782 18.093 30.664C19.286 29.005 20.125 25.959 20.585 22.463ZM21 16C21 14.164 20.898 12.304 20.706 10.53C22.186 10.238 23.602 9.81 24.921 9.259C25.605 11.288 26 13.574 26 16H21ZM20.585 9.537C20.125 6.041 19.287 2.994 18.092 1.336C20.843 2.218 23.17 4.807 24.574 8.32C23.2885 8.85828 21.9521 9.266 20.585 9.537ZM19.611 9.714C18.433 9.898 17.224 10 16 10C14.776 10 13.567 9.898 12.389 9.714C13.084 4.379 14.6 1 16 1C17.4 1 18.916 4.379 19.611 9.714ZM11.415 9.537C10.0479 9.26476 8.71131 8.85708 7.425 8.32C8.829 4.807 11.156 2.218 13.907 1.336C12.714 2.995 11.875 6.041 11.415 9.537ZM11.294 10.53C11.0981 12.3467 10.9999 14.1727 11 16H6C6 13.574 6.395 11.288 7.079 9.258C8.398 9.81 9.814 10.237 11.294 10.53ZM11.014 17C11.043 18.508 11.136 20.017 11.294 21.471C9.814 21.763 8.398 22.191 7.079 22.742C6.49 20.994 6.125 19.055 6.034 17H11.014ZM6.17 23.139C5.31251 23.5495 4.49096 24.0312 3.714 24.579C2.1492 22.3441 1.22806 19.7225 1.051 17H5.035C5.129 19.196 5.526 21.27 6.17 23.139ZM4.313 25.38C5.01257 24.8867 5.75061 24.4503 6.52 24.075C7.524 26.56 8.969 28.623 10.706 30.018C8.2001 29.0687 5.9931 27.4676 4.313 25.38ZM21.294 30.017C23.032 28.623 24.476 26.559 25.48 24.074C26.27 24.458 27.002 24.9 27.687 25.379C26.0076 27.4673 23.8004 29.0686 21.294 30.017ZM27 16C27 13.433 26.572 11.013 25.83 8.861C26.71 8.439 27.528 7.954 28.287 7.421C30.0538 9.93276 31.0013 12.9291 31 16H27ZM27.688 6.62C27.003 7.099 26.271 7.541 25.481 7.925C24.477 5.44 23.032 3.376 21.295 1.982C23.8007 2.93172 26.0076 4.53278 27.688 6.62ZM10.706 1.983C8.968 3.377 7.524 5.441 6.52 7.926C5.75057 7.55042 5.01254 7.11368 4.313 6.62C5.99289 4.53244 8.19998 2.93158 10.706 1.983ZM3.714 7.421C4.49096 7.96883 5.31251 8.45052 6.17 8.861C5.38874 11.1598 4.9934 13.5721 5 16H1C1 12.81 2.009 9.855 3.714 7.421Z"
+                        fill="black" />
+                </svg>EN</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Get ready to play<span
+                    class="sports-casino-poker"><span>sports</span><span>casino</span><span>poker</span></span></h2>
+            <p>Score up to $3,750 in<br>welcome bonuses</p>
+            <button class="btn"><a href="#">Join now</a></button>
+        </section>
+
+        <div class="image-btn">
+            <a href="#"><img alt="sports, esports, & live betting" src="images/sportsbook-card.webp"></a>
+            <a href="#"><img alt="100s of casion games" src="images/casino-card.webp"></a>
+            <a href="#"><img alt="real-time play with live dealers" src="images/live-casino-card.webp"></a>
+            <a href="#"><img alt="three must-drop jackpots" src="images/hdjp-card.webp"></a>
+        </div>
+
+        <section id="crypto">
+            <h2><span>Boost your </span>
+                <span>play with</span>
+                <span>crypto</span>
+            </h2>
+            <p> Bigger bonuses, better<br>security, faster payouts</p>
+            <button class="btn"><a href="#">Learn More</a></button>
+        </section>
+
+        <div id="buttons">
+            <div class="reward card">
+                <h2>Get rewarded</h2>
+                <p> Earn redeemable points while you play</p>
+            </div>
+
+            <div class="transaction card">
+                <h2>Transactions your way</h2>
+                <p> Multiple deposit and cash out methods</p>
+            </div>
+
+            <div class="community card">
+                <h2> Join a community</h2>
+                <p> Interact with other players</p>
+            </div>
+
+            <div class="refer card">
+                <h2> Refer your friends</h2>
+                <p> Earn cash for every bud you bring</p>
+            </div>
+        </div>
+
+        <div id="support">
+            <p>24/7 support | Fast payouts the way you want</p>
+        </div>
+
+        <section id="info">
+            <h2>Online Casino, Sports Betting and Poker at Bovada</h2>
+            <p>
+                Bovada is a top USA-based gambling and sports betting website. Join Bovada sportsbook to find unmissable
+                odds on
+                your favorite sports including NFL, basketball, soccer and more. Bovada is also home to tons of casino
+                games
+                for
+                you
+                to play, including slots, blackjack, and roulette. So whether you want to place a bet on football, or
+                play a
+                round
+                or two of poker, Bovada is the place to play. With a generous welcome bonus, and multiple ways to
+                deposit
+                and
+                withdraw - including several crypto options - Bovada is ready for you.
+            </p>
+        </section>
+    </main>
+    <footer> <small>This is not an official website | 2024</small></footer>
+</body>
+
+</html>
